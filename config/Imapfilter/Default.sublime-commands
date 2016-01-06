@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "SublimeREPL: Imapfilter",
+        "command": "run_existing_window_command", "args":
+        {
+            "id": "repl_imapfilter",
+            "file": "config/Imapfilter/Main.sublime-menu"
+        }
+    }
+]

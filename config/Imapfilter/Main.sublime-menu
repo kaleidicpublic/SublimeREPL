@@ -1,0 +1,30 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "R",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open", 
+                 "caption": "Imapfilter",
+                 "id": "repl_imapfilter",
+                 "mnemonic": "I",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "cmd": ["imapfilter", "-i"],
+                    "cwd": "$file_path",
+                    "cmd_postfix": "\n",
+                    "env": {},
+                    "suppress_echo": false,
+                    "external_id": "imapfilter",
+                    "syntax": "Packages/Lua/Lua.tmLanguage"
+                    }
+                }
+            ]   
+        }]
+    }
+]
